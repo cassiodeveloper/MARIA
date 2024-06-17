@@ -2,7 +2,7 @@
 
 ## Reporting a Security Issue
 
-We take the security of M.A.R.I.A. (Management Application Risk Integrated Analysis) seriously. If you discover any security issues or vulnerabilities, please disclose them responsibly by following these steps:
+We take the security of M.A.R.I.A. (Managing Application Risk Integrated Analysis) seriously. If you discover any security issues or vulnerabilities, please disclose them responsibly by following these steps:
 
 1. **Privately Notify Us:** Please avoid publicly disclosing the issue until we have had a chance to address it. You can contact us directly via email at [cassio@cassiobp.com.br](mailto:cassio@cassiobp.com.br).
 
