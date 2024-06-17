@@ -1,4 +1,4 @@
-# M.A.R.I.A. (Management Application Risk Integrated Analysis)
+# M.A.R.I.A. (Managing Application Risk Integrated Analysis)
 
 MARIA is an open-source project aimed at enhancing application security through comprehensive risk analysis and management practices. The project integrates various tools and techniques to identify, assess, and mitigate security risks within management applications.
 
