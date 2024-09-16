@@ -1,0 +1,28 @@
+@Maria.Rest_HostAddress = http://localhost:5000
+
+### Aqui vc cria seu usuário.
+POST {{Maria.Rest_HostAddress}}/api/Accounts/CreateAccount
+Content-Type: application/json
+Accept: application/json
+{
+    "Name": "Rafael",
+    "Email": "rafael@gmail.com",
+    "Password": "Password",
+    "PasswordCheck": "Password"
+}
+
+### Aqui você faz o login
+POST {{Maria.Rest_HostAddress}}/api/Accounts/Login
+Content-Type: application/json
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+
+{
+    "Email": "rafael@gmail.com",
+    "Password": "Password"
+}
+
+### Request de exemplo. Use o token gerado no request acima
+GET {{Maria.Rest_HostAddress}}/api/Accounts/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxIiwidW5pcXVlX25hbWUiOiJSYWZhZWwiLCJyb2xlIjoidXNlciIsIm5iZiI6MTcyNjQ4MzQwNiwiZXhwIjoxNzI2NDg4ODA2LCJpYXQiOjE3MjY0ODM0MDZ9.X125xblGgk0J7_BYYhplz6_6CWM1K3IGBl_5ePP7B7Q
+Accept: application/json
